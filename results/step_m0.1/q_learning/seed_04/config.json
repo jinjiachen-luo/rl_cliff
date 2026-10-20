@@ -1,0 +1,11 @@
+{
+  "name": "step_m0.1",
+  "gamma": 1.0,
+  "alpha": 0.1,
+  "epsilon": 0.1,
+  "step_reward": -0.1,
+  "cliff_reward": -100.0,
+  "episodes": 3000,
+  "max_steps": 1000,
+  "eval_episodes": 200
+}

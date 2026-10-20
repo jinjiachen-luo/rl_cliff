@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "detailed_statistic_checks": 128,
+  "result_tables_checked": 11,
+  "result_table_cells_checked": 315,
+  "embedded_experimental_images_matched": 11,
+  "core_code_snippets_matched": 3,
+  "figure_sources": [
+    "figures\\environment.png",
+    "figures\\baseline_learning.png",
+    "detailed\\q_learning_individual.png",
+    "detailed\\sarsa_individual.png",
+    "figures\\baseline_evaluation.png",
+    "figures\\baseline_routes.png",
+    "detailed\\risk_decomposition.png",
+    "figures\\gamma_learning.png",
+    "figures\\cliff_learning.png",
+    "figures\\step_learning.png",
+    "figures\\sensitivity_epsilon.png"
+  ],
+  "report_sha256": "1745ca0c4cd28b3fb0d6f17c34570b623ce9c1248eeb5673c901d0eabda0fb93"
+}

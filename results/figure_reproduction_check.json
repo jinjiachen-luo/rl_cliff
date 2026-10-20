@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "regenerated_figures_identical": 14,
+  "detail_statistics_identical": true,
+  "figure_sha256": {
+    "figures\\baseline_evaluation.png": "5c724624a794e6d0a60366e805b38a0d9ad0bd9b7b47b4f8a1273d1d559f9dbf",
+    "figures\\baseline_learning.png": "a26843a9a1454d6c3d6dbbbda45fd02b8cc57ee3c76f224455bf35a68caacb59",
+    "figures\\baseline_routes.png": "bfaea77cbbfb828e9f5375a3e971808f7591d56c848f64d2377b6d0648957fc9",
+    "figures\\cliff_learning.png": "f0246ca73daed0e49e7728879f759c6255ec43c2e7d131b6cc3f31ae7bac1886",
+    "figures\\environment.png": "b6cb58b5db8f26c354e349f1bff05f17d8878220dd9eaf72a5e230a1c608bbd3",
+    "figures\\gamma_learning.png": "bab363823a3df5f2e56cc240a44c54dae8697d99d3ae0220e774ea21fa735f9c",
+    "figures\\sensitivity_cliff.png": "4130a54ce3168f9088c5fbe24acbf8e57fd8d5846a85bf656a0ab76bb55fe738",
+    "figures\\sensitivity_epsilon.png": "3aa3eb7a1fe5c351d551f550cfee65c6069f7bf0ded99122207433b8eadd4b7b",
+    "figures\\sensitivity_gamma.png": "dd654c00045bbe3e715b8ce78111e1a85d6eeccf8cd9b28329ba50b834bad256",
+    "figures\\sensitivity_step.png": "c16d2134dce3df60f935d9d88a1980580b4d9cf1e6d4bf9230b1762ba6ad6f0f",
+    "figures\\step_learning.png": "6d4bbddb8ed2279e9cf5fb261edd7bf16248656cf6987cbee16a4943110fd854",
+    "detailed\\q_learning_individual.png": "d2f90795863803094b5022e481fec70c02266c4f23660094a2aee312f22edabf",
+    "detailed\\risk_decomposition.png": "11f1e2f56cc262aea1a4e8d7efd000f7bdcee0098ca17835a6cd2da3cd1907d6",
+    "detailed\\sarsa_individual.png": "1e5d4dd86d74f451c192cd7f130b694cac8cdcce4a72221777499c59cef378ac"
+  }
+}

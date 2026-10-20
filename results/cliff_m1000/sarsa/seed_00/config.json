@@ -1,0 +1,11 @@
+{
+  "name": "cliff_m1000",
+  "gamma": 1.0,
+  "alpha": 0.1,
+  "epsilon": 0.1,
+  "step_reward": -1.0,
+  "cliff_reward": -1000,
+  "episodes": 3000,
+  "max_steps": 1000,
+  "eval_episodes": 200
+}

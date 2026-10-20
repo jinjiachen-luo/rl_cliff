@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "models_retrained_and_matched": 260,
+  "q_tables_exactly_matched": 260,
+  "routes_exactly_matched": 260,
+  "training_rows_exactly_matched": 780000,
+  "evaluation_rows_exactly_matched": 104000,
+  "wall_seconds": 80.79672349999964,
+  "timing_values_compared": false,
+  "original_data_overwritten": false
+}

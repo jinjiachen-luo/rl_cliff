@@ -1,0 +1,233 @@
+{
+  "python": "3.10.22",
+  "platform": "Windows-10-10.0.22631-SP0",
+  "numpy": "2.2.6",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "configurations": [
+    {
+      "name": "baseline",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "gamma_0",
+      "gamma": 0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "gamma_0.5",
+      "gamma": 0.5,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "gamma_0.9",
+      "gamma": 0.9,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "cliff_m1",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -1,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "cliff_m10",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -10,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "cliff_m500",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -500,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "cliff_m1000",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -1.0,
+      "cliff_reward": -1000,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "step_m0.1",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -0.1,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "step_m2",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -2,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "step_m5",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.1,
+      "step_reward": -5,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "epsilon_0",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    },
+    {
+      "name": "epsilon_0.3",
+      "gamma": 1.0,
+      "alpha": 0.1,
+      "epsilon": 0.3,
+      "step_reward": -1.0,
+      "cliff_reward": -100.0,
+      "episodes": 3000,
+      "max_steps": 1000,
+      "eval_episodes": 200
+    }
+  ],
+  "algorithms": [
+    "q_learning",
+    "sarsa"
+  ],
+  "eval_epsilon": {
+    "greedy": 0,
+    "exploratory": 0.1
+  },
+  "eval_seed_rule": "100000+training_seed; exploratory adds 10000",
+  "tie_breaking": "uniform random among exactly equal maximum Q values",
+  "workers": 4,
+  "wall_seconds": 66.85557909999989,
+  "source_sha256": {
+    "algorithms.py": "3a390c20bed80a00aa029725a2194c26033b6fd59622e1967971305b79124167",
+    "audit_results.py": "db4a36038bf34644b0a7cbe0c9aa7bec26cccae8293c39915d367393e55fce48",
+    "detailed_analysis.py": "3f677d8b342cc8399c063bf05610c37eb630ced228b0c246d169ef283f592eaa",
+    "environment.py": "a57515c766780933867fad44546c2cd04997e9d7cd44599094ea46c3a942c06f",
+    "experiment.py": "17924b8f4645f242fd4c57daf9fc00c395b775abe925a6eacfcdf7ecac848feb",
+    "main.py": "23e6586e5a8010013d33a5f40b3b9d350d9649d88b4ef1c9bf1c50fd5ed04212",
+    "plotting.py": "94a3d1090f0cb8afa801f61eaf172ed3f953c72721dd9b1801146d7621716d6d",
+    "test_core.py": "0311ae1b826918937ef0613ad05d979bfd2eccfedd61d5ac88ac905895cb5d4b",
+    "verify_reproduction.py": "6b3835300392ba2a042968325656929693688b04d94ff2c1914b8117f322d1f2"
+  },
+  "postprocessing": {
+    "note": "The current source matches the recorded source hashes. The classroom extension added cliff_m1000 and step_m2 while preserving all initial model files; see classroom_reward_extension. plotting.py adds reward-sensitivity training plots; detailed_analysis.py reads the saved CSV files to create individual training curves, stage statistics and risk decomposition.",
+    "plotting_sha256": "94a3d1090f0cb8afa801f61eaf172ed3f953c72721dd9b1801146d7621716d6d",
+    "detailed_analysis_sha256": "3f677d8b342cc8399c063bf05610c37eb630ced228b0c246d169ef283f592eaa",
+    "verification_tools_sha256": {
+      "audit_results.py": "db4a36038bf34644b0a7cbe0c9aa7bec26cccae8293c39915d367393e55fce48",
+      "verify_reproduction.py": "6b3835300392ba2a042968325656929693688b04d94ff2c1914b8117f322d1f2"
+    }
+  },
+  "initial_training_source_sha256": {
+    "algorithms.py": "3a390c20bed80a00aa029725a2194c26033b6fd59622e1967971305b79124167",
+    "environment.py": "a57515c766780933867fad44546c2cd04997e9d7cd44599094ea46c3a942c06f",
+    "experiment.py": "672f682b447edfc55273aa08d3535494719a8f0b23db18e5cc4b7a6cd1ac7b91",
+    "main.py": "23e6586e5a8010013d33a5f40b3b9d350d9649d88b4ef1c9bf1c50fd5ed04212",
+    "plotting.py": "af3b7336676c3304edc41601bc25443eb3c3acdfe1f6d755f1ea094de0139b1c",
+    "test_core.py": "0311ae1b826918937ef0613ad05d979bfd2eccfedd61d5ac88ac905895cb5d4b"
+  },
+  "classroom_reward_extension": {
+    "configurations": [
+      {
+        "name": "cliff_m1000",
+        "gamma": 1.0,
+        "alpha": 0.1,
+        "epsilon": 0.1,
+        "step_reward": -1.0,
+        "cliff_reward": -1000,
+        "episodes": 3000,
+        "max_steps": 1000,
+        "eval_episodes": 200
+      },
+      {
+        "name": "step_m2",
+        "gamma": 1.0,
+        "alpha": 0.1,
+        "epsilon": 0.1,
+        "step_reward": -2,
+        "cliff_reward": -100.0,
+        "episodes": 3000,
+        "max_steps": 1000,
+        "eval_episodes": 200
+      }
+    ],
+    "models_added": 40,
+    "workers": 1,
+    "wall_seconds": 8.970940299999711,
+    "existing_model_files_unchanged": 1540,
+    "note": "Only configurations() was extended. Environment, updates, train() and evaluate() are unchanged. Original run used 4 workers; these additional runs used one process."
+  }
+}
